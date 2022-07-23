@@ -42,7 +42,7 @@ function draw(){
     fill('#7060E6')
     textSize(80)
     text('죽었습니다',200,250)
-    text('최종 SCORE '+l*10,125,350)
+    text('최종 SCORE '+(l-3)*10,125,350)
     return
 };//죽었으면 함수 실행 안함
     background('black')
